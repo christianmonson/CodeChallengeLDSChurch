@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		07118F43230E0A4B00D3E1E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07118F42230E0A4B00D3E1E4 /* AppDelegate.swift */; };
-		07118F45230E0A4B00D3E1E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07118F44230E0A4B00D3E1E4 /* ViewController.swift */; };
+		07118F45230E0A4B00D3E1E4 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07118F44230E0A4B00D3E1E4 /* ListViewController.swift */; };
 		07118F48230E0A4B00D3E1E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07118F46230E0A4B00D3E1E4 /* Main.storyboard */; };
-		07118F4B230E0A4B00D3E1E4 /* Code_Challenge_LDS_Church.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07118F49230E0A4B00D3E1E4 /* Code_Challenge_LDS_Church.xcdatamodeld */; };
 		07118F4D230E0A4C00D3E1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07118F4C230E0A4C00D3E1E4 /* Assets.xcassets */; };
 		07118F50230E0A4C00D3E1E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07118F4E230E0A4C00D3E1E4 /* LaunchScreen.storyboard */; };
 		07118F5B230E0A4C00D3E1E4 /* Code_Challenge_LDS_ChurchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07118F5A230E0A4C00D3E1E4 /* Code_Challenge_LDS_ChurchTests.swift */; };
 		07118F66230E0A4C00D3E1E4 /* Code_Challenge_LDS_ChurchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07118F65230E0A4C00D3E1E4 /* Code_Challenge_LDS_ChurchUITests.swift */; };
+		071DBBB9230E41E500F6728A /* API Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071DBBB8230E41E500F6728A /* API Service.swift */; };
+		071DBBBB230E6C5100F6728A /* IndividualsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071DBBBA230E6C5100F6728A /* IndividualsModel.swift */; };
+		071DBBBD230FA4ED00F6728A /* individualsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071DBBBC230FA4ED00F6728A /* individualsTableViewCell.swift */; };
+		07C35A46230E361F004732BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C35A45230E361F004732BB /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +40,8 @@
 /* Begin PBXFileReference section */
 		07118F3F230E0A4B00D3E1E4 /* Code Challenge-LDS Church.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Challenge-LDS Church.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07118F42230E0A4B00D3E1E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07118F44230E0A4B00D3E1E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07118F44230E0A4B00D3E1E4 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		07118F47230E0A4B00D3E1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		07118F4A230E0A4B00D3E1E4 /* Code_Challenge_LDS_Church.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Code_Challenge_LDS_Church.xcdatamodel; sourceTree = "<group>"; };
 		07118F4C230E0A4C00D3E1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07118F4F230E0A4C00D3E1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07118F51230E0A4C00D3E1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		07118F61230E0A4C00D3E1E4 /* Code Challenge-LDS ChurchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code Challenge-LDS ChurchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07118F65230E0A4C00D3E1E4 /* Code_Challenge_LDS_ChurchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_Challenge_LDS_ChurchUITests.swift; sourceTree = "<group>"; };
 		07118F67230E0A4C00D3E1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071DBBB8230E41E500F6728A /* API Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Service.swift"; sourceTree = "<group>"; };
+		071DBBBA230E6C5100F6728A /* IndividualsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualsModel.swift; sourceTree = "<group>"; };
+		071DBBBC230FA4ED00F6728A /* individualsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = individualsTableViewCell.swift; sourceTree = "<group>"; };
+		07C35A45230E361F004732BB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				07118F42230E0A4B00D3E1E4 /* AppDelegate.swift */,
-				07118F44230E0A4B00D3E1E4 /* ViewController.swift */,
+				07118F44230E0A4B00D3E1E4 /* ListViewController.swift */,
+				07C35A45230E361F004732BB /* DetailViewController.swift */,
+				071DBBBC230FA4ED00F6728A /* individualsTableViewCell.swift */,
+				071DBBBA230E6C5100F6728A /* IndividualsModel.swift */,
+				071DBBB8230E41E500F6728A /* API Service.swift */,
 				07118F46230E0A4B00D3E1E4 /* Main.storyboard */,
 				07118F4C230E0A4C00D3E1E4 /* Assets.xcassets */,
 				07118F4E230E0A4C00D3E1E4 /* LaunchScreen.storyboard */,
 				07118F51230E0A4C00D3E1E4 /* Info.plist */,
-				07118F49230E0A4B00D3E1E4 /* Code_Challenge_LDS_Church.xcdatamodeld */,
 			);
 			path = "Code Challenge-LDS Church";
 			sourceTree = "<group>";
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07118F4B230E0A4B00D3E1E4 /* Code_Challenge_LDS_Church.xcdatamodeld in Sources */,
-				07118F45230E0A4B00D3E1E4 /* ViewController.swift in Sources */,
+				071DBBBD230FA4ED00F6728A /* individualsTableViewCell.swift in Sources */,
+				071DBBBB230E6C5100F6728A /* IndividualsModel.swift in Sources */,
+				07118F45230E0A4B00D3E1E4 /* ListViewController.swift in Sources */,
+				071DBBB9230E41E500F6728A /* API Service.swift in Sources */,
 				07118F43230E0A4B00D3E1E4 /* AppDelegate.swift in Sources */,
+				07C35A46230E361F004732BB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,19 +602,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		07118F49230E0A4B00D3E1E4 /* Code_Challenge_LDS_Church.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				07118F4A230E0A4B00D3E1E4 /* Code_Challenge_LDS_Church.xcdatamodel */,
-			);
-			currentVersion = 07118F4A230E0A4B00D3E1E4 /* Code_Challenge_LDS_Church.xcdatamodel */;
-			path = Code_Challenge_LDS_Church.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 07118F37230E0A4B00D3E1E4 /* Project object */;
 }
